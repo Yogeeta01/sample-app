@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>LOGIN</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            label{
+		display: block;
+		}
+        
+            input {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px ;
+                border: none;
+                border-radius: 10px;
+            }
+			
+            input[type=text]:focus {
+		background-color: darkgray;
+            }
+
+            input[type=password]:focus  {
+		background-color: #EDA769;
+            }
+			
+            input[type=submit],input[type=reset] {
+                width: 45%;
+                background-color: blue;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px ;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                background-color: lightblue;
+				color: black;
+            }
+			
+			input[type=reset]:hover {
+			background-color: Lightblue;
+			color: black;
+			}
+
+            div {
+                border-radius:20px;
+                background-color: lightgray;
+                padding: 25px;
+                margin:50px 365px;
+            }
+   
+        </style>
+    </head>
+    <body>
+        <div class="title">
+            <center><h1 style="font-family:cooper std black;font-color:#fff;font-size:60px"><font color="white"></font>LOGIN FORM</font></h1></center>
+        </div>
+        
+        <div>
+            <form>
+            <label for="uname">Username:</label>
+            <input type="text"  id="uname" required><br>
+    
+            <label for="myemail">Email:</label>
+            <input type="email" id="myemail" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="pswd" required><br>
+
+            <label for="retypepswd">Retype Password:</label>
+            <input type="password" id="repswd" required><br> 
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mob" required><br>
+
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+            <br>
+            <p>Already have an account?</p>
+            
+            <ul>
+                <br>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="feedback.html">feedback</li>
+            </ul>
+            <br>
+    </form>
+    </body>
+</html>

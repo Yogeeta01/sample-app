@@ -1,0 +1,212 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Jul, 2020, 7:24:23 PM
+    Author     : 91996
+*/
+
+body{
+    background-image: url("logo1.jpeg");
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+}
+
+.logo {
+	background-image: url("logo1.jpeg");
+	height: 100vh;
+	background-size: cover;
+	margin: 0;
+	background-position: center;
+}
+
+ul{
+
+	list-style-type: none;
+	margin-top: 10px;
+	margin-left: 100;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 80px;
+	border: 2px solid #fff;
+	transition: 0.8s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: darkblue;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: black;
+}
+.hmm{
+	margin-top: 10;
+	float: left;
+	width: 200;
+	height: auto;
+}
+
+
+.about{
+  	margin-top: 15px;
+  	margin-bottom: 50px;
+  	margin-right: 80px;
+ 	margin-left: 80px;
+   padding: 30px 15px 30px 15;
+   	background-color: lightblue;
+}
+
+p.about{
+	color: #000;
+	text-align: center;
+}
+
+
+.contact{
+	
+  	margin-top: 15px;
+  	margin-bottom: 50px;
+  	margin-right: 80px;
+ 	margin-left: 80px;
+   padding: 30px 15px 30px 15;
+   	background-color: lightblue;
+}
+
+p.contact{
+	color: #000;
+	text-align: center;
+}
+
+.btn .fa{
+	width: 40px;
+	height: 50px;
+	text-align: center;
+}
+p .fa{
+	width: 40px;
+	height: 50px;
+}
+
+.categories{
+	margin: 5px;
+	margin-top: 5px;
+  	margin-bottom: auto;
+  	margin-right: 100px;
+ 	margin-left: 150px;
+  
+  float: left;
+  width: 180px;
+}
+div.categories:hover {
+   border: -1px;
+}
+
+div.categories img {
+  width: 300%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: left;
+}
+.wall_tiles{
+	 margin: auto;
+	 padding: auto;
+}
+
+.word{
+	margin-top: 100;
+	margin-bottom: auto;
+}
+a {
+  color: white;
+  text-align: center;
+}
+.image{
+	margin: 0px;
+	margin-top: 15px;
+  	margin-bottom: auto;
+  	margin-right: 200px;
+ 	margin-left: 50px;
+  
+  float: center;
+  width: 180px;
+}
+
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+45% {
+	left: -100%;
+}
+50% {
+	left: -200%;
+}
+70% {
+	left: -200%;
+}
+75% {
+	left: -300%;
+}
+95% {
+	left: -300%;
+}
+100% {
+	left: -400%;
+}
+
+}
+
+
+#slider {
+	overflow: hidden;
+	
+}
+
+#slider figure img {
+	width: 20%;
+	float: center;
+	padding: 10px 50px;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 10s slider infinite; 
+}
+
+
+
+
